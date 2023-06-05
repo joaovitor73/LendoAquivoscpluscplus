@@ -17,4 +17,9 @@
     }
 ### Passo 6 - Fechando o arquivo
     arquivo.close();
+    
+### Tipos de parâmetros do open
+     1 - arquivo.open("nome.extensão", ios::app); //impede a sobrescrição de linhas
+     2 - arquivo.open("nome.extensão", ios::out); //indicando que o modo da vez é de escrita
+     3 - arquivo.open("nome.extensão", ios::in); //indicando que o modo da vez é de leitura
       
