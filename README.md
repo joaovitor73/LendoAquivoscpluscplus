@@ -11,7 +11,7 @@
 ### Leitura - Escrevendo no arquivo, precisamos indicar no passo anterior que vai ser uma ação de leitura
     arquivo.open("nome.extensão", ios::out)
     arquivo << "Oi";
-### Escrita - Lendo arquivo, também precisamos indicar qual vai ser a ação
+### Escrita - Lendo o arquivo e mostrando na teal, também precisamos indicar qual vai ser a ação
     arquivo.open("nome.extensão", ios::in)
     string linha; 
     if((arquivo.is_open(){//verifica se o arquivo está aberto
