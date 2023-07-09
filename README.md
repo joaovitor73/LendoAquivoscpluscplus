@@ -1,4 +1,3 @@
-# Lendo e escrevendo em arquivos com c++
 ### Passo 1 - Precisamos incluir a biblioteca fstream
     #include <fstream>   
 ### Passo 2 - Escolher o tipo do objeto ofstream(apenas escrita), ifstream(apenas leitura) ou fstream(leitura e escrita)
